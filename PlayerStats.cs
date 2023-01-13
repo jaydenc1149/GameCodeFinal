@@ -24,8 +24,9 @@ class PlayerStats{ // not implemented in the game
         HP = 50; 
         Def = 0;
         Exp = 0;
-				PL = 1;
+	PL = 1;
     }
+	Player Player1 = new Player();
  // getter methods
 	public int getMaxHP(){
 		return MaxHP;
